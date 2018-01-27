@@ -1,6 +1,7 @@
 # Exception Handling with setjmp.h in C
 
-- https://en.m.wikipedia.org/wiki/Setjmp.h
+- Supports nested try_catch clauses
+- Reading: https://en.m.wikipedia.org/wiki/Setjmp.h
 
 ## Usage
 ```c
