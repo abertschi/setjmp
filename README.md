@@ -2,6 +2,7 @@
 
 - Supports nested try_catch clauses
 - Reading: https://en.m.wikipedia.org/wiki/Setjmp.h
+ 
 
 ## Syntax
 ```c
@@ -13,6 +14,8 @@ try_catch({
     // exception_code (int) contains exception code (42 here)
 });
 ```
+## Limitations
+- `code` in `raise(code)` cannot be 0
 
 ## Implementation
 ```c
