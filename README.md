@@ -3,16 +3,15 @@
 - Supports nested try_catch clauses
 - Reading: https://en.m.wikipedia.org/wiki/Setjmp.h
 
-## Usage
+## Syntax
 ```c
-    try_catch({
-        // try block
-    
-        raise(42); // boom!
-    }, {
-        // catch block
-        // exception_code (int) contains exception code (42 here)
-    });
+try_catch({
+    // try block
+    raise(42); // boom!
+}, {
+    // catch block
+    // exception_code (int) contains exception code (42 here)
+});
 ```
 
 ## Implementation
