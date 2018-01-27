@@ -5,13 +5,12 @@
 ## Usage
 ```c
     try_catch({
-    // try block
+        // try block
     
-    raise(42); // boom!
-
+        raise(42); // boom!
     }, {
-    // catch block, exception_code (int) contains exception code (42 here)
-
+        // catch block
+        // exception_code (int) contains exception code (42 here)
     });
 ```
 
