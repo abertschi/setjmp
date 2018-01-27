@@ -78,6 +78,7 @@ int main(int argc, char *argv[argc])
 
 ```
 # will print:
+
     in try block 0
     in try block 1
     raising exception in try block 1
@@ -88,3 +89,4 @@ int main(int argc, char *argv[argc])
     in catch block 0
     exception is: 43
     after try_catch block 0
+```
