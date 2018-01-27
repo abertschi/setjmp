@@ -16,6 +16,7 @@ try_catch({
 ```
 ## Limitations
 - `code` in `raise(code)` cannot be 0
+- `raise(code)` can only be called within a `try_catch` block
 
 ## Implementation
 ```c
