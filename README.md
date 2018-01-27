@@ -17,7 +17,7 @@ try_catch({
 ## Implementation
 ```c
 /**
- * hand-knitted try/catch mechanism for c using setjmp mechanism.
+ * hand-knitted try/catch mechanism for c using setjmp.
  * Andrin Bertschi
  * 
  */
